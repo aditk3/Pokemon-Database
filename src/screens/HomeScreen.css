@@ -1,0 +1,45 @@
+.Home-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #282c34;
+}
+
+.page-btn {
+    margin: 10px;
+    text-decoration: none;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.322) 50%, white 50%);
+    border-radius: 15px;
+    border: #282c34 1.5px solid;
+    padding: 10px;
+    transition: 0.1s;
+}
+
+button {
+    margin: 0 3px;
+    padding: 10px;
+    border: 1px solid #282c34;
+    border-radius: 15px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.322) 50%, white 50%);
+    color: #282c34;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: darkgray;
+}
+
+button:visited, button:active {
+    color: #282c34;
+}
+
+.search {
+    padding-top: 20px;
+    width: 400px;
+}
+
+.Home-header {
+    margin-top: 20px;
+}

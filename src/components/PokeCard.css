@@ -1,0 +1,32 @@
+.Poke-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 400px;
+    height: 400px;
+    color: white;
+    font-size: large;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 0.1s;
+    margin: 10px;
+}
+
+.Poke-card:hover {
+    background-color: rgba(255, 0, 0, 0.322);
+    cursor: pointer;
+}
+
+.Card-info {
+    width: 100%;
+    background-color: #282c34;
+    border-radius: 0 0 10px 10px;
+    min-height: 100px;
+    transition: 0.1s;
+}
+
+img {
+    height: 300px;
+}

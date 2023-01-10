@@ -1,0 +1,31 @@
+.Poke-pic {
+    height: 150px;
+    width: 150px;
+    background-color: aliceblue;
+    border: #282c34 1.5px solid;
+    border-radius: 20px;
+    margin: 15px;
+    transition: 0.1s;
+    align-items: center;
+}
+
+.Poke-pic img {
+    height: 100%;
+    margin-top: -30px;
+    position: static;
+    width: 100%;
+    z-index: 1000;
+}
+
+.Poke-pic h3 {
+    position: static;
+    margin: 5px 5px 5px 10px;
+    z-index: 10000;
+}
+
+.Poke-pic:hover {
+    border: #282c34 1.5px solid;
+    box-shadow: 0 0 10px #282c34;
+    cursor: pointer;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.322) 50%, white 50%);
+}
